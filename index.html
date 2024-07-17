@@ -3,33 +3,30 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios@1.6.7/dist/axios.min.js"></script>
     <link rel="stylesheet" href="src/style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Hand:wght@400..700&display=swap" rel="stylesheet">
-    <title>Recipe Generator with AI</title>
+    <title>AI Recipe Generator</title>
 </head>
 <body>
-   
     <div class="container">
         <header>
-    <h1>Recipe Generator with AI</h1>
-</header>
-<main>
-    <div class="form-container">
-       <form id="recipe-generator-form">
-        <input type="text" placeholder="Enter the ingredients..." autofocus required autocomplete="off" class="instructions" id="user-instructions"/>
-        <input type="submit" class="submit-button"/>
-       </form>
-       <small class="hint">i.e: Chicken, Broccoli, Vegetarian or Healthy ingredients...</small>
-   </div> 
-   <div class="recipe hidden " id="recipefull">
-    </main>
-
-<footer> This AI project was coded by <a href="https://github.com/kicsimuca" target="_blank">Boglarka Gyurkovics</a> and is <a href="https://github.com/kicsimuca/french-poem-generator.git" target="_blank">open-sourced on GitHub</a> and is hosted <a href="https://ai-french-poems-generator.netlify.app/" target="_blank">on Netify.</a> </footer>
-    <style src="src/best-food-background-0neqcd9ozlv3js9y.jpg"></style>
-  </div>  
-  <script src="src/index.js"></script>
-
+            <h1>AI Recipe Generator</h1>
+         </header>
+        
+         <main>
+         <div class="form-container">
+            <form id="recipe-generator-form">
+             <input type="text" placeholder="Enter the integrate for recipe" autofocus required autocomplete="off" class="instructions" id="user-instructions"/>
+             <input type="submit" class="submit-button"/>
+            </form>
+            <small class="hint">i.e: Ham, Cheese, Chicken or Pasta</small>
+        </div>
+        <div class="recipe hidden " id="recipe">
+         </main>
+    
+    <footer> This AI project was coded by <a href="https://github.com/kicsimuca" target="_blank">Boglarka Gyurkovics</a> and is <a href="https://github.com/kicsimuca/french-poem-generator.git" target="_blank">open-sourced on GitHub</a> and is hosted <a href="https://ai-french-poems-generator.netlify.app/" target="_blank">on Netify.</a> </footer>
+    </div>
+    <script src="src/index.js"></script>
 </body>
 </html>
