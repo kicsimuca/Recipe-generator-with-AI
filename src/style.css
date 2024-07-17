@@ -1,0 +1,111 @@
+body {
+    background-image: url(bestfood.jpg);
+    background-size: cover;
+    font-family: Helvetica, Arial, sans-serif;
+}
+  
+  .container {
+    margin: 120px auto;
+    max-width: 600px;
+  }
+  
+  header {
+    margin-bottom: 30px;
+  }
+  
+  h1 {
+    text-align: center;
+    font-weight: 800;
+    font-size: 36px;
+    line-height: 1.5;
+    color: #ea58b5;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+  }
+  .form-container{
+   background-color: #fff;
+   margin-bottom: 30px;
+   border-radius: 10px;  
+   box-shadow: 10px 20px 25px #ea58b5;
+    padding: 15px 20px;
+}
+form {
+    
+    display: flex;
+    
+  }
+  .hint{
+    line-height:  1.5;
+    font-size: 12px;
+    margin-top: 5px;
+    opacity: 0.6;
+    font-size: 12px;
+
+    
+  }
+  
+  .instructions {
+    padding: 16px;
+    border: 1px solid #ea58b5;
+    width: 80%;
+    font-size: 16px;
+    border-radius: 50px;
+    line-height: 20px;
+    color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+  
+  .submit-button {
+    margin-left: 10px;
+    background: #ea58b5;
+    color: black;
+    border: none;
+    width: 150px;
+    font-size: 16px;
+    border-radius: 50px;
+    padding: 14px 24px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+  
+  }
+  .recipe {
+    font-size: 16px;
+    background-color: #fff;
+    padding: 20px;
+    line-height: 2;
+    border-left: 3px solid #ea58b5;
+    box-shadow: 0px 4px 30px 0px rgba(39, 33, 66, 0.03);
+  
+  }
+  .hidden{
+    display: none;
+
+  }
+  .recipe strong {
+    color: #885df1;
+  }
+  
+  footer {
+    text-align: center;
+    font-size: 15px;
+    margin-top: 30px;
+    color: aliceblue;
+   font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+   a {
+    font-weight: bold;
+    color: #ea58b5;
+  }
+  .generating {
+    animation: blink-animation 1s steps(5, start) infinite;
+  }
+  @keyframes blink-animation {
+    to {
+      visibility: hidden;
+    }
+  }
+  @-webkit-keyframes blink-animation {
+    to {
+      visibility: hidden;
+    }
+  }
