@@ -14,7 +14,7 @@ function generateRecipe(event) {
 let instructionsInput = document.querySelector("#user-instructions");
 let apiKey = "588o0f43ac2e1ab815ce138f9afctf73";
 let prompt =`Generate a recipe about ${instructionsInput.value}`;
-let context = "You are an expert about recipes. Your mission is to generate recipes in basic HTML.Please give full discription about the recipe";
+let context = "You are an expert about recipes. Your mission is to generate recipes in basic HTML.Please give short cooking instruction with the ingredients about the recipe";
 let apiURL = `https://api.shecodes.io/ai/v1/generate?prompt=${prompt}&context=${context}&key=${apiKey}`;
 
 console.log(`Prompt: ${prompt}`);
